@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/5f7d2b3f46.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          >Ahmed Ahad
+          <img
+            src="img/my-portrait.jpg"
+            alt=""
+            style="
+              height: 30px;
+              width: 30px;
+              border-radius: 50%;
+              margin-left: 1rem;
+            "
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#about-me" class="btn card-button me-lg-3 mb-lg-0 mb-3"
+                >About Me
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="btn card-button me-lg-3 mb-lg-0 mb-3"
+                >Skills and Interests
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="btn card-button me-lg-3 mb-lg-0 mb-3">
+                Education
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="btn card-button me-lg-3 mb-lg-0 mb-3">
+                Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-me" class="btn contact-button"> contact Me </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="hero-section text-light" id="hero">
+      <div class="container cust-width hero-padding">
+        <div
+          class="d-sm-flex align-items-center justify-content-between cust-margin-left"
+        >
+          <div class="intro text-center">
+            <i class="bi bi-award d-block cust-icon-size"></i>
+            <p
+              class="hello-text"
+              data-aos="slide-right"
+              data-aos-duration="1000"
+            >
+              Hello, I'm
+            </p>
+            <p
+              class="name-text"
+              data-aos="slide-right"
+              data-aos-duration="1000"
+            >
+              Ahad Al Tanvir Ahmed
+            </p>
+            <p
+              class="hello-text2"
+              data-aos="slide-right"
+              data-aos-duration="1000"
+            >
+              Student Of IUB
+            </p>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+            >
+              <a href="https://facebook.com/ahad.tanvir.5" target="_blank"
+                ><ion-icon
+                  name="logo-facebook"
+                  class="custom-icon mx-1 text-light icon-glow"
+                ></ion-icon
+              ></a>
+              <a href="https://twitter.com/ahadtanvir1" target="_blank"
+                ><ion-icon
+                  name="logo-twitter"
+                  class="custom-icon mx-1 text-light icon-glow"
+                ></ion-icon
+              ></a>
+              <a href="https://instagram.com/ahmedahad1" target="_blank"
+                ><ion-icon
+                  name="logo-instagram"
+                  class="custom-icon mx-1 text-light icon-glow"
+                ></ion-icon
+              ></a>
+
+              <a href="https://github.com/AhmedAhad1" target="_blank"
+                ><ion-icon
+                  name="logo-github"
+                  class="custom-icon mx-1 text-light icon-glow"
+                ></ion-icon
+              ></a>
+              <a href="https://discord.com/login" target="_blank"
+                ><ion-icon
+                  name="logo-discord"
+                  class="custom-icon mx-1 text-light icon-glow"
+                ></ion-icon
+              ></a>
+            </div>
+          </div>
+          <img
+            src="img/Ahad.png"
+            alt=""
+            class="img-fluid my-img"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- script -->
+    <section class="main-section py-5" id="about-me">
+      <div class="cust-margin-section">
+        <div class="container cust-width">
+          <h2 class="primary-text primary-text-margin-bottom">
+            About me &rarr;
+          </h2>
+
+          <div
+            class="row text-light justify-content-between mb-5 flex-li-gap"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <div class="col-md">
+              <p class="about-me-text">
+                I am Ahad and currently I am a student of Independent
+                University, Bangladesh. My major is computer science. I wish to
+                pursue my career as a Web devoloper. I find front-end and
+                back-end development very fascinating.
+              </p>
+            </div>
+            <div class="col-md">
+              <p class="about-me-text">
+                Apart from HTML, CSS I have completed some important courses
+                like c++, java, python programming language. These courses have
+                strengthened my skills as a programmer and will allow me to
+                become a valuable asset.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="row g-3 primary-text-margin-top"
+            data-aos="zoom-in-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <div
+              class="col-md d-flex justify-content-center align-items-stretch"
+            >
+              <div
+                class="card secondary-background secondary-shadow"
+                style="width: 18rem"
+              >
+                <div
+                  class="card-body text-center d-flex flex-column justify-content-center"
+                >
+                  <h3 class="card-title fw-bold">Timely</h3>
+                  <p class="card-text lead">
+                    I try to complete all my works right on time. Making sure my
+                    work is not due
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md d-flex justify-content-center align-items-stretch"
+            >
+              <div
+                class="card secondary-background secondary-shadow"
+                style="width: 18rem"
+              >
+                <div
+                  class="card-body text-center d-flex flex-column justify-content-center"
+                >
+                  <h3 class="card-title fw-bold">Adaptable</h3>
+                  <p class="card-text lead">
+                    Different scenarios can sometime be tricky but I try to
+                    adapt to at as much as I can
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md d-flex justify-content-center align-items-stretch"
+            >
+              <div
+                class="card primary-background primary-shadow"
+                style="width: 18rem"
+              >
+                <div
+                  class="card-body text-center d-flex flex-column justify-content-center"
+                >
+                  <h3 class="card-title fw-bold">Team Worker</h3>
+                  <p class="card-text lead">
+                    I am flexible with working in a team
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills-section py-5" id="skills">
+      <div class="">
+        <div
+          class="container cust-width min-vh-100 d-flex flex-column justify-content-center"
+        >
+          <div
+            class="row text-light"
+            class="interest"
+            data-aos-offset="300"
+            data-aos="zoom-out"
+            data-aos-duration="3000"
+          >
+            <div class="col-md-4">
+              <h1 class="primary-text mb-5">Interests</h1>
+
+              <ul style="list-style: none" class="interest">
+                <li
+                  class="d-lg-flex align-items-center flex-li-gap mb-lg-3 mb-5 list-hover"
+                >
+                  <ion-icon
+                    name="hardware-chip-outline"
+                    class="custom-list-icon"
+                  ></ion-icon>
+                  <p class="lead m-0 mt-lg-0 mt-3">Artificial intelligence</p>
+                </li>
+                <li
+                  class="d-lg-flex align-items-center flex-li-gap mb-lg-3 mb-5 list-hover"
+                >
+                  <ion-icon
+                    name="finger-print-outline"
+                    class="custom-list-icon"
+                  ></ion-icon>
+                  <p class="lead m-0 mt-lg-0 mt-3">Machine Learning</p>
+                </li>
+                <li
+                  class="d-lg-flex align-items-center flex-li-gap mb-lg-3 mb-5 list-hover"
+                >
+                  <ion-icon
+                    name="game-controller-outline"
+                    class="custom-list-icon"
+                  ></ion-icon>
+                  <p class="lead m-0 mt-lg-0 mt-3">Game Devolopment</p>
+                </li>
+                <li class="d-lg-flex align-items-center flex-li-gap list-hover">
+                  <ion-icon
+                    name="globe-outline"
+                    class="custom-list-icon"
+                  ></ion-icon>
+                  <p class="lead m-0 mt-lg-0 mt-3">Web Devolopment</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-8">
+              <h1
+                class="primary-text d-flex justify-content-center mt-md-0 mt-5 mb-5"
+              >
+                Skills
+              </h1>
+              <ul
+                style="list-style: none"
+                class="skills"
+                style="list-style: none"
+              >
+                <li
+                  class="d-lg-flex align-items-center justify-content-end flex-li-gap mb-lg-3 mb-4 list-hover"
+                >
+                  <ion-icon
+                    name="logo-python"
+                    class="custom-list-icon"
+                  ></ion-icon>
+                  <p class="lead m-0 mt-lg-0 mt-3">Python</p>
+                  <div class="progress cust-progress">
+                    <div
+                      class="progress-bar progress-bg-primary"
+                      role="progressbar"
+                      style="width: 78%"
+                    ></div>
+                  </div>
+                </li>
+                <li
+                  class="d-lg-flex align-items-center justify-content-end flex-li-gap mb-lg-3 mb-4 list-hover"
+                >
+                  <ion-icon
+                    name="cafe-outline"
+                    class="custom-list-icon"
+                  ></ion-icon>
+
+                  <p class="lead m-0 mt-lg-0 mt-3">Java</p>
+                  <div class="progress cust-progress">
+                    <div
+                      class="progress-bar progress-bg-primary"
+                      role="progressbar"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </li>
+                <li
+                  class="d-lg-flex align-items-center justify-content-end flex-li-gap mb-lg-3 mb-4 list-hover"
+                >
+                  <ion-icon
+                    name="bug-outline"
+                    class="custom-list-icon"
+                  ></ion-icon>
+                  <p class="lead m-0 mt-lg-0 mt-3">C++</p>
+                  <div class="progress cust-progress">
+                    <div
+                      class="progress-bar progress-bg-primary"
+                      role="progressbar"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+                </li>
+                <li
+                  class="d-lg-flex align-items-center justify-content-end flex-li-gap mb-lg-3 mb-4 list-hover"
+                >
+                  <ion-icon
+                    name="code-slash-outline"
+                    class="custom-list-icon"
+                  ></ion-icon>
+                  <p class="lead m-0 mt-lg-0 mt-3">Html</p>
+                  <div class="progress cust-progress">
+                    <div
+                      class="progress-bar progress-bg-primary"
+                      role="progressbar"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </li>
+                <li
+                  class="d-lg-flex align-items-center justify-content-end flex-li-gap mb-lg-3 mb-4 list-hover"
+                >
+                  <ion-icon
+                    name="logo-css3"
+                    class="custom-list-icon"
+                  ></ion-icon>
+                  <p class="lead m-0 mt-lg-0 mt-3">CSS</p>
+                  <div class="progress cust-progress">
+                    <div
+                      class="progress-bar progress-bg-primary"
+                      role="progressbar"
+                      style="width: 65%"
+                    ></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education-section p-5" id="education">
+      <h1
+        class="education-title text-center text-light"
+        data-aos="slide-right"
+        data-aos-duration="1000"
+      >
+        Education
+      </h1>
+      <div class="container cust-width text-light">
+        <div class="row text-center align-items-center g-4">
+          <div
+            class="col-lg-4"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
+            <div class="education-box d-flex justify-content-center">
+              <div>
+                <i class="fa-solid fa-school fa-2xl mb-5 cust-fa-icon"></i>
+                <h3 class="title-education primary-color">
+                  Secondary School Certificate (SSC)
+                </h3>
+                <p class="college lead">Shaheed police Smrity School College</p>
+                <p class="major lead">Major: Science</p>
+                <p class="year fw-bold">Year: 2014-2015</p>
+                <p class="gpa lead primary-color">5.00</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 text-center"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
+            <div class="education-box d-flex justify-content-center">
+              <div>
+                <i class="fa-solid fa-paper-plane fa-2xl mb-5 cust-fa-icon"></i>
+                <h3 class="title-education primary-color">
+                  Higher School Certificate (HSC)
+                </h3>
+                <p class="college lead">Shaheed police Smrity School College</p>
+                <p class="major lead">Major: Science</p>
+                <p class="year fw-bold">Year: 2016-2017</p>
+                <p class="gpa lead primary-color">5.00</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
+            <div class="education-box d-flex justify-content-center">
+              <div>
+                <i
+                  class="fa-solid fa-graduation-cap fa-2xl mb-5 cust-fa-icon"
+                ></i>
+                <h3 class="title-education primary-color">
+                  Higher School Certificate (HSC)
+                </h3>
+                <p class="college lead">Independent University Bangladesh</p>
+                <p class="major lead">Major: CSE</p>
+                <p class="year fw-bold">Expected Year: 2023</p>
+                <p class="gpa lead primary-color">To Be Received</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <img
+              src="img/illus-1.png"
+              class="education-img img-fluid"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-offset="300"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects section -->
+    <section class="projects-section p-5" id="projects">
+      <h1
+        class="project-heading text-center"
+        data-aos="slide-right"
+        data-aos-duration="1000"
+      >
+        Projects
+      </h1>
+      <div
+        class="container min-vh-100 d-flex flex-column justify-content-center"
+      >
+        <div class="row text-light g-4">
+          <div
+            class="col-lg-4 col-md-6 d-flex align-items-stretch"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
+            <div class="card card-hover">
+              <img src="img/java.png" class="cust-card-img w-100" alt="..." />
+              <div class="card-body cust-card-background">
+                <h5 class="card-title mb-4 pt-4 primary-color">
+                  Simulating Operations Of BICC
+                </h5>
+                <p class="card-text mb-5">
+                  A desktop application for managing various operations of BICC
+                  using java FXML
+                </p>
+                <a
+                  href="https://github.com/AhmedAhad1/Simulation-of-BICC"
+                  target="_blank"
+                  class="btn card-button mt-auto"
+                  >View Project
+                  <span><i class="fa-brands fa-java fa-lg ms-2"></i> </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 d-flex align-items-stretch"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
+            <div class="card card-hover">
+              <img
+                src="img/Web-Development.png"
+                class="cust-card-img w-100"
+                alt="..."
+              />
+              <div class="card-body cust-card-background">
+                <h5 class="card-title mb-4 pt-4 primary-color">
+                  Simple Chair Company Web Page
+                </h5>
+                <p class="card-text mb-5">
+                  Using raw HTML and CSS this webpage was created. CSS grid and
+                  flex-box are present here
+                </p>
+                <a
+                  href="https://ahmedahad1.github.io/Chair-Company-Simple-webpage/"
+                  target="_blank"
+                  class="btn card-button mt-auto"
+                  >View Project
+                  <span><i class="fa-solid fa-code ms-3"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 d-flex align-items-stretch"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
+            <div class="card card-hover">
+              <img
+                src="img/database.jpg"
+                class="cust-card-img w-100"
+                alt="..."
+              />
+              <div class="card-body cust-card-background">
+                <h5 class="card-title mb-4 pt-4 primary-color">
+                  Student Enrollment Analysis System
+                </h5>
+                <p class="card-text mb-5">
+                  A group project with front and back-end use cases to analysis
+                  student enrollment every semester
+                </p>
+                <a
+                  href="https://github.com/AhmedAhad1/SEAS"
+                  class="btn card-button mt-auto"
+                  target="_blank"
+                  >View Project
+                  <span><i class="fa-solid fa-database ms-2"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-me p-5 min-vh-100" id="contact-me">
+      <h1
+        class="project-heading text-center mb-5"
+        data-aos="slide-right"
+        data-aos-duration="1000"
+      >
+        Contact Me
+      </h1>
+      <div
+        class="container cust-width container-background d-flex flex-column justify-content-center p-5"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+        data-aos-offset="300"
+      >
+        <div class="row align-items-center g-5 primary-color lead">
+          <div class="col-lg-4">
+            <img src="img/message.png" alt="" class="img-fluid w-100" />
+          </div>
+          <div class="col-lg-8">
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">First Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="col-md-6">
+                <label for="name" class="form-label">Last Name</label>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity" />
+              </div>
+              <div class="col-md-12">
+                <label for="floatingTextarea2" class="mb-3">Message</label>
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a message"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+              </div>
+              <div class="col-12 d-flex justify-content-center mt-5">
+                <button type="submit" class="btn send-button">
+                  Send
+                  <span>
+                    <i class="fa-solid fa-share ms-2"></i>
+                  </span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container primary-text-margin-top d-flex flex-column justify-content-center"
+      >
+        <div class="contact-text">
+          <ul class="" style="list-style: none">
+            <li
+              class="d-flex flex-li-gap align-items-center mb-lg-3 mb-4 justify-content-center"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+            >
+              <i class="fa-solid fa-phone cust-contact-icon"></i>
+              <span>+8801766111229</span>
+            </li>
+            <li
+              class="d-flex flex-li-gap align-items-center justify-content-center"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <i class="fa-solid fa-envelope-open cust-contact-icon"></i>
+              <span>ahad714@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+        <div class="row primary-text-margin-top g-4">
+          <div
+            class="col-md d-flex justify-content-center"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-offset="90"
+          >
+            <a
+              href="https://facebook.com/ahad.tanvir.5"
+              target="_blank"
+              class="logo-btn d-inline-block d-flex justify-content-center align-items-center w-50"
+            >
+              <p class="">Facebook</p>
+              <i
+                class="fa-brands fa-facebook-square ms-3 cust-contact-icon fa-xl"
+              ></i>
+            </a>
+          </div>
+          <div
+            class="col-md d-flex justify-content-center"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-offset="90"
+            data-aos-delay="300"
+          >
+            <a
+              href="https://twitter.com/ahadtanvir1"
+              target="_blank"
+              class="logo-btn d-inline-block d-flex justify-content-center align-items-center w-50"
+            >
+              <p class="">Twitter</p>
+              <i class="fa-brands fa-twitter ms-3 cust-contact-icon fa-xl"></i>
+            </a>
+          </div>
+          <div
+            class="col-md d-flex justify-content-center"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-offset="90"
+            data-aos-delay="400"
+          >
+            <a
+              href="https://gmail.com"
+              target="_blank"
+              class="logo-btn d-inline-block d-flex justify-content-center align-items-center w-50"
+            >
+              <p class="">Email</p>
+              <i class="fa-solid fa-envelope ms-3 cust-contact-icon fa-xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="footer-text">
+        &copy; Ahad Al Tanvir Ahmed 2022 all rights are reserved
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
