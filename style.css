@@ -119,7 +119,10 @@ p {
   transition: all 0.3s;
   color: #f6c681;
 }
-
+.card-button:hover {
+  background-color: #f6c681;
+  transform: scale(1.1);
+}
 .contact-button {
   padding: 0.4rem 0.8rem;
   background-color: #f6c681;
@@ -130,10 +133,7 @@ p {
 .contact-button:hover {
   transform: scale(1.1);
 }
-.card-button:hover {
-  background-color: #f6c681;
-  transform: scale(1.1);
-}
+
 .interest p {
   font-size: 1.6rem;
 }
